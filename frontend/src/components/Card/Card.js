@@ -7,6 +7,8 @@ import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import './Card.css';  // Import the CSS file
 
+
+
 export default function BasicCard({ title, description, path }) {
   return (
     <Card className='card' sx={{
