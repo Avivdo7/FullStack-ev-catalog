@@ -11,7 +11,7 @@ const pool = new Pool({
 });
 
 async function getExchangeRate() {
-  const apiKey = "d99f681625e992d0c362fd21";
+  const apiKey = process.env.API_KEY;
   const url = `https://v6.exchangerate-api.com/v6/${apiKey}/pair/EUR/ILS`;
 
   try {
