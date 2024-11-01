@@ -75,3 +75,5 @@ The Electric Vehicle Sales Dashboard is a web application that provides insights
 - `GET /api/states`: Retrieves a list of states for filtering.
 - `GET /api/sales/quarterly`: Retrieves quarterly sales data for the bar chart.
 - `GET /api/sales/total-by-brand`: Retrieves total sales data for the pie chart.
+
+Contact Me
